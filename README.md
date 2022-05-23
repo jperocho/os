@@ -1,5 +1,15 @@
 # Kernel Project built in rust
 
+### Running in rust
+
+Building
+
+`$ cargo build`
+
+Running
+
+`$ cargo run`
+
 ### Booting in QEMU
 `qemu-system-x86_64 -drive format=raw,file=target/x86_64-os/debug/bootimage-os.bin`
 
